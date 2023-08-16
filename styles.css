@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.score {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+
+button {
+  margin: 0.25rem;
+  border: none;
+  background-color:aquamarine;
+}
+
+button:hover {
+  background-color: gray;
+  color: aquamarine;
+}
+
+
+.jokes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1.5rem;
+}
